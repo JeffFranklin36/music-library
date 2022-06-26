@@ -42,7 +42,8 @@ function ArtistView(props){
 
  return (
   <div>
-    {navButtons()}
+   {/* {artistData[0].artistName} */}
+   {navButtons()}
    {display}
  </div>
  )
