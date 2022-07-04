@@ -7,6 +7,7 @@ function AlbumView(props){
 
 
  useEffect(() => {
+    console.log('at the beginning of albumview use effect')
     const API_URL = `http://localhost:4000/song/${id}`
     const fetchData = async () => {
       const response = await fetch(API_URL)
